@@ -1,0 +1,55 @@
+/*找到网页当前最多文字大小一致的作为网页默认字体大小*/
+body{font-family:"微软雅黑";font-size:12px;color:#666;list-style: none;}
+a{color:#666;text-decoration: none;}
+a:hover{color: #f10180;}
+img{vertical-align:top;}
+/*公共样式*/
+.wrapper{width: 1170px;height: 100%;margin: auto;}
+.fl{float: left;}
+.fr{float: right;}
+/*topbar分区*/
+.topbar{height: 28px;line-height: 28px;background: #F5F5F5;}
+.topbar ul li{float: left;margin-left:12px;padding-right: 21px;position:relative;}
+.topbar .line:after{content:"/";position:absolute;right: 0;top:0;color:#ccc;}
+/*倒三角*/
+.topbar .caret{position: relative;padding-right: 13px;
+}
+.topbar .caret:after{content:'';border:4px solid transparent;
+    border-top-color:#999;position:absolute;right:0;top:6px;}
+/*先移动上a标签，再控制伪类*/
+.topbar .caret:hover:after{border-top-color:#f10180;transform:rotate(180deg);top:3px;}
+/*手机版图标*/
+.topbar .iconfont{vertical-align:middle;}
+.topbar .fl li{margin-left:18px;}
+.topbar .fl li a{padding-right:31px;}
+/*==========header logo===================*/
+.header {height:100px;}
+.header h1{margin-top:26px;}
+.header .fr{width: 527px;height: 40px;line-height:40px;
+    margin-top:30px;}
+.header .info{width: 390px;height: 100%;float: left;
+    font-size: 14px;color:#333;}
+.header .info p{width:130px;float: left;}
+.header .info .iconfont{font-size:40px;
+vertical-align: middle;color: #f10180;}
+.header .cart{width: 136px;height: 100%;
+    float: right;position: relative;}
+.header .cart .iconfont{font-size:20px; color:#333;position: absolute;top:0px;left: 20px;}
+.header .cart span{position:absolute;left:30px;top:5px;height: 16px;line-height:16px;background:#f10180;color:#fff;padding:0px 8px;border-radius:16px;}
+.header .cart p{text-indent:55px;}
+.header .cart:before{content:'';width: 1px;height: 10px;background:#cccc;position: absolute;left: 0;top: 15px;}
+.nav .wrapper{height: 40px;line-height:40px;background:#F10180;}
+.nav li{float: left;font-size:16px;}
+.nav .fl .shouye{background:#DB0A76;}
+.nav li:hover{background: #BD1167;}
+.nav li a{padding: 0 20px;color: white;}
+.nav strong {font-weight:bold;}
+
+.nav .caret{position: relative;padding-right: 13px;
+}
+.nav .fl .caret:after{content:'';border:4px solid transparent;
+    border-top-color:#ffffff;position:absolute;right:0;top:10px;}
+.nav .caret:hover:after{
+    transform: rotate(180deg);top:10px;
+}
+

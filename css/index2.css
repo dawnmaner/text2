@@ -1,0 +1,22 @@
+body{font-size:12px;color:#666;font-family:"微软雅黑";list-style:none}
+a{color:#666;text-decoration:none;}
+a:hover{color:#f10180;}
+img{vertical-align: top;}
+/*公共样式*/
+.wrapper{width: 1170px;height: 100%;margin:auto;}
+.fl{float: left;}
+.fr{float: right;}
+/*topbar分区*/
+.topbar{height: 28px;line-height: 28px;background: #F5F5F5;}
+.topbar ul li{float: left;margin-left:12px;padding-right:19px;position: relative;}
+.topbar .line:after{content:'/';position:absolute;right:0;top:0;color:#ccc;}
+.topbar .caret{position: relative;padding-right:12px;}
+.topbar .caret:after{content:'';border:4px solid transparent;border-top-color:#999999;position:absolute;right:0;top:6px;}
+.topbar .caret:hover:after{border-top-color:#f10180;transform:rotate(180deg);top:3px;}
+/*手机版图标*/
+.topbar .iconfont{vertical-align: middle;}
+.topbar .fl li{margin-left: 18px;}
+.topbar .fl li a{padding-right:31px;}
+
+/*更多的二级导航*/
+.
